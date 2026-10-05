@@ -1,0 +1,19 @@
+{
+  "name": "សៀវភៅចំណងដៃ",
+  "short_name": "ចំណងដៃ",
+  "description": "Digital wedding and banquet cash gift ledger",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#4C1220",
+  "theme_color": "#4C1220",
+  "lang": "km",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

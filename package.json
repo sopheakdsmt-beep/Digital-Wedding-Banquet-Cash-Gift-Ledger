@@ -1,0 +1,26 @@
+{
+  "name": "wedding-cash-ledger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tablet ledger for Khmer wedding cash gifts (ចំណងដៃ), with KHQR display and USD/KHR reconciliation.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "postinstall": "node scripts/patch-bakong.mjs",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "ISC",
+  "overrides": {
+    "axios": "1.20.0"
+  },
+  "dependencies": {
+    "bakong-khqr": "^1.0.20",
+    "buffer": "^6.0.3",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}
